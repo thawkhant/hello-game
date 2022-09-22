@@ -1,4 +1,4 @@
 <?php 
 
- require("welcome.html");
+ require "welcome.html"
  ?>
