@@ -1,77 +1,77 @@
 const database = [
       
-      // {
-      // 	question:"How Many Skill have in English ?",
-      // 	a:"4 Skills (Reading,Speaking,Listening,Writing)",
-      // 	b:"5 Skills (Reading,Speaking,Listening,Writing,Thinking)",
-      // 	c:"2 Skills (Reading,Speaking)",
-      // 	d:"3 Skills (Reading,Speaking,Listening)",
-      // 	correctanswer:"a"
-      // },
-      //   {
-      // 	question:"Who is the greatest king of Myanmar ?",
-      // 	a:"Anawyahtar",
-      // 	b:"Bayinnaung",
-      // 	c:"Thibaw",     
-      //   d:"Narathihape",
-      // 	correctanswer:"b"
-      // },
-      //   {
-      // 	question:"How Many Population in Myanmar ?",
-      // 	a:"60.1 billion", 
-      // 	b:"77.1 billion",
-      // 	c:"80.21 billion",
-      // 	d: "50.41 billion",   	     	
-      // 	correctanswer:"d"
-      // },
-      //   {
-      // 	question:"how many nationality in myanmar?",
-      // 	a:"165",
-      // 	b:"182",
-      // 	c:"135",
-      // 	d:"142",
-      // 	correctanswer:"c"
-      // },
-      // {
-      //   question:"Who is the most handsome in the world ?",
-      //   a:"Thaw Khant",
-      //   b:"Ko May Ko Toe",
-      //   c:"Aung Yee Lin",
-      //   d:"Lee Min-ho",
-      //   correctanswer:"d"
-      // },
-      // {
-      //   question:"Why you wanna be a Programmer?",
-      //   a:"because of money",
-      //   b:"because of hobby",
-      //   c:"because of lazy",
-      //   d:"My family forced me to become a Programmer Lol!",
-      //   correctanswer:"a"
-      // },
-      // {
-      //   question:"Why you need girlfriend?",
-      //   a:"to play",
-      //   b:"to get married",
-      //   c:"to borrow moneys",
-      //   d:"to become hero",
-      //   correctanswer:"a"
-      // },
-      // {
-      //   question:"Why Thaw Khant still living in Myanmar ? Can You Guess.",
-      //   a:"No money,to go abroad",
-      //   b:"because i love Myanmar",
-      //   c:"Girlfriend not follow with me to go abroad",
-      //   d:"My Mom not allowed me.",
-      //   correctanswer:"a"
-      // },
-      // {
-      //   question:"How do you think Thaw Khant face ?",
-      //   a:"Handsome",
-      //   b:"Super Handsome",
-      //   c:"Super Super Handsome",
-      //   d:"Super x 1000 Handsome",
-      //   correctanswer:"d"
-      // },
+      {
+      	question:"How Many Skill have in English ?",
+      	a:"4 Skills (Reading,Speaking,Listening,Writing)",
+      	b:"5 Skills (Reading,Speaking,Listening,Writing,Thinking)",
+      	c:"2 Skills (Reading,Speaking)",
+      	d:"3 Skills (Reading,Speaking,Listening)",
+      	correctanswer:"a"
+      },
+        {
+      	question:"Who is the greatest king of Myanmar ?",
+      	a:"Anawyahtar",
+      	b:"Bayinnaung",
+      	c:"Thibaw",     
+        d:"Narathihape",
+      	correctanswer:"b"
+      },
+        {
+      	question:"How Many Population in Myanmar ?",
+      	a:"60.1 billion", 
+      	b:"77.1 billion",
+      	c:"80.21 billion",
+      	d: "50.41 billion",   	     	
+      	correctanswer:"d"
+      },
+        {
+      	question:"how many nationality in myanmar?",
+      	a:"165",
+      	b:"182",
+      	c:"135",
+      	d:"142",
+      	correctanswer:"c"
+      },
+      {
+        question:"Who is the most handsome in the world ?",
+        a:"Thaw Khant",
+        b:"Ko May Ko Toe",
+        c:"Aung Yee Lin",
+        d:"Lee Min-ho",
+        correctanswer:"d"
+      },
+      {
+        question:"Why you wanna be a Programmer?",
+        a:"because of money",
+        b:"because of hobby",
+        c:"because of lazy",
+        d:"My family forced me to become a Programmer Lol!",
+        correctanswer:"a"
+      },
+      {
+        question:"Why you need girlfriend?",
+        a:"to play",
+        b:"to get married",
+        c:"to borrow moneys",
+        d:"to become hero",
+        correctanswer:"a"
+      },
+      {
+        question:"Why Thaw Khant still living in Myanmar ? Can You Guess.",
+        a:"No money,to go abroad",
+        b:"because i love Myanmar",
+        c:"Girlfriend not follow with me to go abroad",
+        d:"My Mom not allowed me.",
+        correctanswer:"a"
+      },
+      {
+        question:"How do you think Thaw Khant face ?",
+        a:"Handsome",
+        b:"Super Handsome",
+        c:"Super Super Handsome",
+        d:"Super x 1000 Handsome",
+        correctanswer:"d"
+      },
       {
         question:"Why don't you click for PDF ?",
         a:"I am Dalan",
