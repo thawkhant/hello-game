@@ -4,7 +4,7 @@ const database = [
       	question:"How Many Skill have in English ?",
       	a:"4 Skills (Reading,Speaking,Listening,Writing)",
       	b:"5 Skills (Reading,Speaking,Listening,Writing,Thinking)",
-      	c:"6 Skills (Reading,Speaking,Listening,Writing,Thinking,Researching)",
+      	c:"2 Skills (Reading,Speaking)",
       	d:"3 Skills (Reading,Speaking,Listening)",
       	correctanswer:"a"
       },
