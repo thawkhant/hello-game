@@ -43,7 +43,7 @@ const database = [
 ];
 // console.log(database[0].a);
 
-const getcontainer = document.querySelector('.container');
+const getcontainer = document.querySelector('.containers');
 const getquestion = document.querySelector('.question');
 const getanswers = document.querySelectorAll('.answer');
 //console.log(getanswer);
