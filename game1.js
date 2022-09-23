@@ -166,21 +166,21 @@ getbtn.addEventListener('click',function(){
      console.log(score);
 
    getcontainer.innerHTML = `
-   <div style="width:600px;margin-left:600px">
-   <div style="border:1px solid #ddd; margin-top:100px;padding:50px 0px;box-shadow:0px 0px 10px rgba(0,0,0,0.5)">
-   <img src="./final.gif" width:200px style="margin-bottom:50px;margin-left:200px;"/>
-    <h3 style="color:#000;text-align:center;margin-bottom:50px;">Total Score :<span style="color:green;font-weight:bold"> ${score*10}</span></h3>
-    <h4 style="color:#000;text-align:center;margin-bottom:50px;">You answered correctly at ${score} / ${database.length} questions.</h4>
-    <button type="button" style="border: none;
-          padding: 20px;
+   <div class="boar" style="width:600px;margin-left:430px">
+   <div style="border:1px solid #ddd; margin-top:100px;padding:30px 0px;box-shadow:0px 0px 10px rgba(0,0,0,0.5)">
+   <img class="pha" src="./final.gif" width:200px style="margin-bottom:20px;margin-left:190px;"/>
+    <h3 class"ts" style="color:#000;text-align:center;margin-bottom:20px;font-size:25px;">Total Score :<span style="color:green;font-weight:bold;font-size:30px"> ${score*10}%</span></h3>
+    <h5 style="color:#000;text-align:center;margin-bottom:20px;">You answered correctly at ${score} / ${database.length} questions.</h5>
+    <button class="butt" type="button" style="border: none;
+          padding: 10px 15px;
           background: steelblue;
           color: #fff;
           font-weight: bold;
           border-radius:50px;
-          font-size: 20px;
+          font-size: 14px;
           letter-spacing: 1px;
           position: relative;
-          margin-left:150px;
+          margin-left:170px;
           " 
           ondblclick="location.reload()">Click for More Challenges</button> 
     </div>
