@@ -19,14 +19,9 @@
 			align-items: center;*/
 		}
 
-		/*.mid{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			margin-bottom:100px;
-			background: red;
-		}*/
+		.mid{
+			margin-top: 200px;
+		}
 
 		.container{
 			/*width: 600px;*/
@@ -146,7 +141,7 @@
 		btn.addEventListener("click",function(){
 			this.setAttribute("disabled",true)
 			setwidth = 0;
-			serinter = setInterval(progress,10);
+			serinter = setInterval(progress,50);
 
 			function progress(){
 				if(setwidth >= 100){
