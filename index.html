@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Hoppo Mello Game</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 	<style type="text/css">
@@ -23,7 +24,7 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%,-50%);*/
-			margin-top: 100px;
+			margin-top: 150px;
 		}
 
 		.container{
@@ -59,6 +60,39 @@
             align-items: center;
 		
 		}
+
+
+		.goal{
+			color:#ffa800;
+			animation: go .8s infinite linear;
+		}
+
+		.goals{
+			color:#ffa800 ;
+			animation: go .8s infinite linear;
+			animation-delay: .5s;
+		}
+
+		@keyframes go{
+			0%{
+       transform: translateY(0);
+			}
+			50%{
+       transform: translateY(-10px);
+			}
+			100%{
+      transform: translateY(0);
+			}
+		}
+
+		h3{
+			font-weight: bold;
+			color: #bf2940;
+		}
+
+		.chal{
+			color:#9b9435;
+		}
 	</style>
 </head>
 <body>
@@ -73,9 +107,11 @@
 		</div>
 
 		<div class="content text-center">
-			<h3>Are you Ready for Test your English Skill?</h3>
-			<p>This project is aim to beginner who start studying English.</p>
-			<p>Challenges are waiting you!</p>
+			<h3> Ready for Test your English Skill?</h3>
+			<!-- <p>This project aim to having fun.</p> -->
+			<div class="mb-3">
+			<i class="fas fa-trophy goal"></i><span class="chal"> Challenges are waiting you </span><i class="fas fa-trophy goals"></i>
+		</div>
 		</div>
         
         <div class="d-grid">
@@ -101,16 +137,17 @@
 		var progress = document.querySelector(".progress");
 		var progressbar = document.querySelector(".progress-bar");
 		var btn = document.getElementById("btn");
-		var seturl = "https://youtube.com";
+		var seturl = "./game1.html";
 
 		btn.addEventListener("click",function(){
 			this.setAttribute("disabled",true)
 			setwidth = 0;
-			serinter = setInterval(progress,50);
+			serinter = setInterval(progress,10);
 
 			function progress(){
 				if(setwidth >= 100){
 					clearInterval(serinter);
+					window.location.href = seturl;
 				}else{
 					setwidth++;
 					progressbar.style.width = `${setwidth}%`
